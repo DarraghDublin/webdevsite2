@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disclaimer Page</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+
+<img src="images/archery logo.jpg" alt="logo"
+style="float: left;width: 129px;height: 129px;">
+<header>
+    <h1>Irish Archery</h1> 
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Disclaimer</a></li>
+        <li><a href="bows.html">Bows</a></li>
+        <li><a href="equipment.html">Equipment</a></li>
+        <li id="active"><a href="locations.html">Locations</a></li>
+    </ul>
+</nav>
+
+<h2>
+     Irish Archery Locations
+</h2>
+
+
+
+<div id="googleMap" style="width:100%;height:400px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(54.106487213861506, -8.575816855142104),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+
+
+
+
+
+<article>
+    <p>Locations text doc.</p>
+</article>
+
+
+<footer>
+    <p>Copyright©  Archery Site 2024</p>
+</footer>
+
+ 
+</body>
+</html>
