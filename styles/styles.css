@@ -1,0 +1,169 @@
+*{
+    font-family: Verdana;
+    margin: 0;
+    padding: 0;
+}
+
+/*css for Logo*/
+.logo{
+    float: left;
+    width: 90px;
+    height: 180px;
+    border: solid 2px darkgreen;
+    margin-top: 20px;
+}
+
+/*header design*/
+header{
+    height: 140px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(5, 58, 15);
+}
+
+header h1{
+    color: white;
+    font-size: xx-large;
+}
+
+
+/*nav design*/
+nav ul {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav{
+    background-color: rgb(10, 26, 0);
+    padding: 10px;
+}
+
+nav ul li{
+    display: inline;
+    position: relative;  
+    padding: 10px;
+    border-radius: 100px;
+    background-color: gray;
+    border: dotted 3px darkgreen;
+}
+
+
+/*hover nav design*/
+a:hover{
+    background-color: #987503;
+}
+
+/*active tab design*/
+#active{
+    border: solid 2px orangered;
+}
+
+.bg-image {
+    /* Full height */
+    height: 50%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Images used */
+.img1 { background-image: url("img_snow.jpg"); 
+}
+
+
+/*body design*/
+body{
+background-image: linear-gradient(black, white);
+background-image: url("targer1.jpg");
+}
+
+
+/*section design*/
+section{
+    text-align: left;
+    color: black;
+    border: dotted 1px  black;
+    margin-top: 10px;
+    margin-left: 15px;
+    padding: 0%;
+    width: 30%;
+
+}
+
+section h2{
+    text-align: left;
+    font-size: x-large;
+    text-decoration: underline;
+
+}
+
+section h3{
+    text-align: left;
+    font-size: large;
+
+}
+
+table{
+padding: 0;
+height: 30%;
+width: 30%;
+}
+
+table th{
+    text-align: center;
+    font-size: x-large;
+}
+
+table td{
+    text-align: center;
+    font-size: medium;
+}
+
+table, th, td {
+    border: 1px solid black;
+    margin: 0;  
+    padding: 0;
+}
+
+div {
+    column-count: 3;
+    column-gap: 30px;
+    column-rule-width: 2px;
+    column-rule-color: darkgreen;
+}
+
+article{
+    text-align: left;
+    font-size: medium;
+    padding: 15px;
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 10px;
+    border:solid 2px black;
+}
+
+/*aside design*/
+aside {
+    width: 20%;
+    position: absolute;
+    top: 40%;
+    right: 10px;                 
+    padding: 20px;            
+    box-shadow: -4px 0 8px rgba(0, 0, 0, 0.1);
+    overflow: scroll;
+  }
+
+
+/*footer design*/
+footer{
+    text-align: center;
+    padding: 0;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    color: white;
+    background-color: rgb(155, 154, 154);
+}

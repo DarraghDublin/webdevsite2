@@ -1,0 +1,81 @@
+*{
+    font-family: Verdana;
+    margin: 0;
+    padding: 0;
+}
+
+/* css for Logo */
+.logo{
+    float: left;
+    width: 90px;
+    height: 180px;
+    border: solid 2px darkgreen;
+    margin-top: 20px;
+}
+
+/* header design */
+header{
+    height: 140px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(5, 58, 15);
+}
+
+header h1{
+    color: white;
+    font-size: xx-large;
+}
+/* CSS design */
+nav ul {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav{
+    background-color: rgb(10, 26, 0);
+    padding: 10px;
+}
+
+nav ul li{
+    display: inline;
+    position: relative;  
+    padding: 10px;
+    border-radius: 100px;
+    background-color: gray;
+    border: dotted 3px darkgreen;
+}
+
+a:hover{
+    background-color: #987503;
+}
+
+#active{
+    border: solid 2px orangered;
+}
+
+/* section design */
+section h2{
+    color: red;
+    font-size: x-large;
+    text-align: center;
+    margin: 20px;
+}
+
+section h3{
+    color: gray;
+    font-size: large;
+    text-align: center;
+    margin: 20px;
+}
+
+/* footer design */
+footer{
+    text-align: center;
+    padding: 0;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    color: white;
+    background-color: rgb(155, 154, 154);
+}
